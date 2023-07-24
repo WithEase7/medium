@@ -6,6 +6,8 @@ export const data = [
         date: "Jul 10",
         duration: "5 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/0*rCypNw9YHdvjK_IC",
+        description: "Barbie and Oppenheimer open on the same weekend, which is great for both films and cinema in general.",
+        genre: "Film",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*46_J6xXhSeiqfW8HrtxK-g.png",
@@ -14,6 +16,8 @@ export const data = [
         date: "Jul 13",
         duration: "6 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/0*tVRSDkvkjCr2Znry.png",
+        description: "Once we’ve learned how to do something, we become “unconsciously competent” at it. In order to break with the predictable path and move forward, what my good friend and colleague,",
+        genre: "Rita McGrath",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*NMZ_0Q7PLHu9KRpDvoxNMw.png",
@@ -22,6 +26,8 @@ export const data = [
         date: "Jun 17",
         duration: "11 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/1*6xpQuWk6zoE1mEjjD8SiEA.png",
+        description: "Why I Can’t Forget This Poem",
+        genre: "Poetry",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*VH9usPh601npohqlvpnxvg.jpeg",
@@ -30,6 +36,8 @@ export const data = [
         date: "Jul 19",
         duration: "10 min",
         image: "https://miro.medium.com/v2/da:true/resize:fill:200:200/1*TYdVeITHIFR8TWyX5j8cHA.gif",
+        description: "From the present day all the way to less than 400 million years after the Big Bang, we’re seeing how the Universe grew up like never before.",
+        genre: "NASA",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*AwBz4NW9_M45J-sBlmH-lA.png",
@@ -38,6 +46,8 @@ export const data = [
         date: "Jul 17",
         duration: "4 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/1*CvRhWlxwXZr39R1O0pA9PA.png",
+        description: "I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.",
+        genre: "",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*7iOld74WIh9PHiLynIkOmw.png",
@@ -46,6 +56,8 @@ export const data = [
         date: "Jul 10",
         duration: "5 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/0*rCypNw9YHdvjK_IC",
+        description: "Barbie and Oppenheimer open on the same weekend, which is great for both films and cinema in general.",
+        genre: "Film",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*46_J6xXhSeiqfW8HrtxK-g.png",
@@ -54,6 +66,8 @@ export const data = [
         date: "Jul 13",
         duration: "6 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/0*tVRSDkvkjCr2Znry.png",
+        description: "Once we’ve learned how to do something, we become “unconsciously competent” at it. In order to break with the predictable path and move forward, what my good friend and colleague,",
+        genre: "Rita McGrath",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*NMZ_0Q7PLHu9KRpDvoxNMw.png",
@@ -62,6 +76,8 @@ export const data = [
         date: "Jun 17",
         duration: "11 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/1*6xpQuWk6zoE1mEjjD8SiEA.png",
+        description: "Why I Can’t Forget This Poem",
+        genre: "Poetry",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*VH9usPh601npohqlvpnxvg.jpeg",
@@ -70,6 +86,8 @@ export const data = [
         date: "Jul 19",
         duration: "10 min",
         image: "https://miro.medium.com/v2/da:true/resize:fill:200:200/1*TYdVeITHIFR8TWyX5j8cHA.gif",
+        description: "From the present day all the way to less than 400 million years after the Big Bang, we’re seeing how the Universe grew up like never before.",
+        genre: "NASA",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*AwBz4NW9_M45J-sBlmH-lA.png",
@@ -78,6 +96,8 @@ export const data = [
         date: "Jul 17",
         duration: "4 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/1*CvRhWlxwXZr39R1O0pA9PA.png",
+        description: "I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.",
+        genre: "",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*7iOld74WIh9PHiLynIkOmw.png",
@@ -86,6 +106,8 @@ export const data = [
         date: "Jul 10",
         duration: "5 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/0*rCypNw9YHdvjK_IC",
+        description: "Barbie and Oppenheimer open on the same weekend, which is great for both films and cinema in general.",
+        genre: "Film",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*46_J6xXhSeiqfW8HrtxK-g.png",
@@ -94,6 +116,8 @@ export const data = [
         date: "Jul 13",
         duration: "6 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/0*tVRSDkvkjCr2Znry.png",
+        description: "Once we’ve learned how to do something, we become “unconsciously competent” at it. In order to break with the predictable path and move forward, what my good friend and colleague,",
+        genre: "Rita McGrath",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*NMZ_0Q7PLHu9KRpDvoxNMw.png",
@@ -102,6 +126,8 @@ export const data = [
         date: "Jun 17",
         duration: "11 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/1*6xpQuWk6zoE1mEjjD8SiEA.png",
+        description: "Why I Can’t Forget This Poem",
+        genre: "Poetry",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*VH9usPh601npohqlvpnxvg.jpeg",
@@ -110,6 +136,8 @@ export const data = [
         date: "Jul 19",
         duration: "10 min",
         image: "https://miro.medium.com/v2/da:true/resize:fill:200:200/1*TYdVeITHIFR8TWyX5j8cHA.gif",
+        description: "From the present day all the way to less than 400 million years after the Big Bang, we’re seeing how the Universe grew up like never before.",
+        genre: "NASA",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*AwBz4NW9_M45J-sBlmH-lA.png",
@@ -118,6 +146,8 @@ export const data = [
         date: "Jul 17",
         duration: "4 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/1*CvRhWlxwXZr39R1O0pA9PA.png",
+        description: "I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.",
+        genre: "",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*7iOld74WIh9PHiLynIkOmw.png",
@@ -126,6 +156,8 @@ export const data = [
         date: "Jul 10",
         duration: "5 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/0*rCypNw9YHdvjK_IC",
+        description: "Barbie and Oppenheimer open on the same weekend, which is great for both films and cinema in general.",
+        genre: "Film",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*46_J6xXhSeiqfW8HrtxK-g.png",
@@ -134,6 +166,8 @@ export const data = [
         date: "Jul 13",
         duration: "6 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/0*tVRSDkvkjCr2Znry.png",
+        description: "Once we’ve learned how to do something, we become “unconsciously competent” at it. In order to break with the predictable path and move forward, what my good friend and colleague,",
+        genre: "Rita McGrath",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*NMZ_0Q7PLHu9KRpDvoxNMw.png",
@@ -142,6 +176,8 @@ export const data = [
         date: "Jun 17",
         duration: "11 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/1*6xpQuWk6zoE1mEjjD8SiEA.png",
+        description: "Why I Can’t Forget This Poem",
+        genre: "Poetry",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*VH9usPh601npohqlvpnxvg.jpeg",
@@ -150,6 +186,8 @@ export const data = [
         date: "Jul 19",
         duration: "10 min",
         image: "https://miro.medium.com/v2/da:true/resize:fill:200:200/1*TYdVeITHIFR8TWyX5j8cHA.gif",
+        description: "From the present day all the way to less than 400 million years after the Big Bang, we’re seeing how the Universe grew up like never before.",
+        genre: "NASA",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*AwBz4NW9_M45J-sBlmH-lA.png",
@@ -158,6 +196,8 @@ export const data = [
         date: "Jul 17",
         duration: "4 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/1*CvRhWlxwXZr39R1O0pA9PA.png",
+        description: "I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.",
+        genre: "",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*7iOld74WIh9PHiLynIkOmw.png",
@@ -166,6 +206,8 @@ export const data = [
         date: "Jul 10",
         duration: "5 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/0*rCypNw9YHdvjK_IC",
+        description: "Barbie and Oppenheimer open on the same weekend, which is great for both films and cinema in general.",
+        genre: "Film",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*46_J6xXhSeiqfW8HrtxK-g.png",
@@ -174,6 +216,8 @@ export const data = [
         date: "Jul 13",
         duration: "6 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/0*tVRSDkvkjCr2Znry.png",
+        description: "Once we’ve learned how to do something, we become “unconsciously competent” at it. In order to break with the predictable path and move forward, what my good friend and colleague,",
+        genre: "Rita McGrath",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*NMZ_0Q7PLHu9KRpDvoxNMw.png",
@@ -182,6 +226,8 @@ export const data = [
         date: "Jun 17",
         duration: "11 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/1*6xpQuWk6zoE1mEjjD8SiEA.png",
+        description: "Why I Can’t Forget This Poem",
+        genre: "Poetry",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*VH9usPh601npohqlvpnxvg.jpeg",
@@ -190,6 +236,8 @@ export const data = [
         date: "Jul 19",
         duration: "10 min",
         image: "https://miro.medium.com/v2/da:true/resize:fill:200:200/1*TYdVeITHIFR8TWyX5j8cHA.gif",
+        description: "From the present day all the way to less than 400 million years after the Big Bang, we’re seeing how the Universe grew up like never before.",
+        genre: "NASA",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*AwBz4NW9_M45J-sBlmH-lA.png",
@@ -198,6 +246,8 @@ export const data = [
         date: "Jul 17",
         duration: "4 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/1*CvRhWlxwXZr39R1O0pA9PA.png",
+        description: "I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.",
+        genre: "",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*7iOld74WIh9PHiLynIkOmw.png",
@@ -206,6 +256,8 @@ export const data = [
         date: "Jul 10",
         duration: "5 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/0*rCypNw9YHdvjK_IC",
+        description: "Barbie and Oppenheimer open on the same weekend, which is great for both films and cinema in general.",
+        genre: "Film",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*46_J6xXhSeiqfW8HrtxK-g.png",
@@ -214,6 +266,8 @@ export const data = [
         date: "Jul 13",
         duration: "6 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/0*tVRSDkvkjCr2Znry.png",
+        description: "Once we’ve learned how to do something, we become “unconsciously competent” at it. In order to break with the predictable path and move forward, what my good friend and colleague,",
+        genre: "Rita McGrath",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*NMZ_0Q7PLHu9KRpDvoxNMw.png",
@@ -222,6 +276,8 @@ export const data = [
         date: "Jun 17",
         duration: "11 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/1*6xpQuWk6zoE1mEjjD8SiEA.png",
+        description: "Why I Can’t Forget This Poem",
+        genre: "Poetry",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*VH9usPh601npohqlvpnxvg.jpeg",
@@ -230,6 +286,8 @@ export const data = [
         date: "Jul 19",
         duration: "10 min",
         image: "https://miro.medium.com/v2/da:true/resize:fill:200:200/1*TYdVeITHIFR8TWyX5j8cHA.gif",
+        description: "From the present day all the way to less than 400 million years after the Big Bang, we’re seeing how the Universe grew up like never before.",
+        genre: "NASA",
     },
     {
         author_image: "https://miro.medium.com/v2/resize:fill:40:40/1*AwBz4NW9_M45J-sBlmH-lA.png",
@@ -238,5 +296,7 @@ export const data = [
         date: "Jul 17",
         duration: "4 min",
         image: "https://miro.medium.com/v2/resize:fill:200:200/1*CvRhWlxwXZr39R1O0pA9PA.png",
+        description: "I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.",
+        genre: "",
     },
 ]

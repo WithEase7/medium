@@ -1,5 +1,6 @@
 import React, {useEffect} from "react";
 import { mediumLogo } from "../utilities/SvgIcons";
+import '../css/NavBar.css'
 
 const NavBar = () => {
   const updateNavbarStyle = ()=> {

@@ -2,7 +2,8 @@ import React from "react";
 import TitleSection from "../subcomponents/Home/TitleSection";
 import TrendingSection from "../subcomponents/Home/TrendingSection";
 import TopicCards from "../subcomponents/Home/TopicCards";
-import RecentBlogs from "../subcomponents/RecentBlogs";
+import RecentBlogs from "../subcomponents/Home/RecentBlogs";
+import '../css/Home.css'
 
 const Home = () => {
   return (

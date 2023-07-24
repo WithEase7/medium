@@ -1,6 +1,6 @@
 import React from 'react';
-import { data } from '../utilities/BlogsData';
-import { bookmarkIcon } from '../utilities/SvgIcons';
+import { data } from '../../utilities/BlogsData';
+import { bookmarkIcon } from '../../utilities/SvgIcons';
 
 const RecentBlogs = () => {
   return (
@@ -15,8 +15,9 @@ const RecentBlogs = () => {
                                 <span>{item.author}</span>
                             </div>
                             <h4 className='blogTitle'>{item.title}</h4>
+                            <p className='blogDescription'>{item.description}</p>
                             <div className='blogFooter'>
-                            <p>{item.date} . {item.duration} read</p>
+                            <p>{item.date} . {item.duration} read {item.genre &&<> <span>. </span> <span className='blogGenre'>{item.genre}</span></>}</p>
                             <span>{bookmarkIcon}</span>
                             </div>
                         </div>
