@@ -1,15 +1,20 @@
-import './App.css';
-import Footer from './components/Footer';
-import Home from './components/Home';
-import NavBar from './components/NavBar';
+import "./App.css";
+import Home from "./components/Home";
+import Membership from "./components/Membership";
+import NavBar from "./components/NavBar";
+import { Routes, Route } from "react-router-dom";
+import Write from "./components/Write";
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
-      <Home />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/membership" element={<Membership />} />
+        <Route path="/write" element={<Write />} />
+      </Routes>
+    </>
   );
 }
 

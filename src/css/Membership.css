@@ -1,0 +1,181 @@
+.firstFold {
+  padding: 150px 15px 45px 20px;
+  background-color: #4479ff;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.ffButton {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  margin-top: 2.5rem;
+}
+.ffoneTitle {
+  font-family: "Gt super text book", Georgia, sans-serif;
+  font-size: 2.4rem;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+}
+.ffoneTagline {
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+}
+.secondFold {
+  padding: 20px;
+  background-color: #4479ff;
+  color: white;
+}
+.sfone,
+.sftwo {
+  padding-bottom: 2.7rem;
+  padding-top: 30px;
+}
+.sfone {
+  border-bottom: 1px solid white;
+}
+.sftwo {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sfoneTitle,
+.sftwoTitle {
+  font-family: "Gt super text book", Georgia, sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: -1px;
+}
+.sfoneTagline,
+.sftwoTagline {
+  font-size: 1.1rem;
+}
+.sfImage {
+  max-width: 260px;
+  max-height: 135px;
+  margin: 1rem 0;
+}
+.thirdFold{
+    padding: 30px 20px;
+}
+.tfTitle{
+  font-family: "Gt super text book", Georgia, sans-serif;
+font-size: 1.6rem;
+width: 80%;
+}
+.tfImage{
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    margin: 2rem 0;
+}
+.tfComment{
+    font-size: 1.1rem;
+    font-family: 'Soehne web buch', sans-serif;
+}
+.tfName{
+  font-family: "Gt super text book", Georgia, sans-serif;
+font-size: 1.1rem;
+margin-top: 1.8rem;
+}
+.fourthFold {
+  padding: 30px 20px;
+  background-color: #bcdfff;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.f4Title {
+  font-family: "Gt super text book", Georgia, sans-serif;
+  font-size: 2rem;
+}
+.f4Button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  margin-top: 1.5rem;
+  color: white;
+  background-color: black;
+}
+.f4Image{
+  display: none;
+  border-bottom: 1px solid black;
+  background-color: #bcdfff;
+}
+.fifthFold{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+}
+.f5Logo{
+  width: 45%;
+}
+.f5Tagline{
+  font-size: 13px;
+  margin-top: 20px;
+}
+.f5List{
+  list-style-type: none;
+  display: flex;
+  text-decoration: underline;
+  font-size: 10px;
+  gap: 1rem;
+  margin-top: 20px;
+}
+@media (min-width: 480px){
+  .secondFold{
+    display: flex;
+  }
+  .sfone, .sftwo{
+    padding: 20px 10px 10px 20px;
+  }
+  .sfImage{
+    width: 11rem;
+  }
+  .sfone{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-bottom: 0;
+    border-right: 1px solid white;
+  }
+  .sftwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .ffone{
+    text-align: center;
+  }
+  .ffoneTitle{
+    font-size: 4rem;
+    letter-spacing: -2px;
+  }
+  .ffoneTagline{
+    font-size: 1.1rem;
+  }
+  .ffButton{
+    font-size: 1.3rem;
+  }
+  .fourthFold{
+    text-align: center;
+  }
+  .f4Title{
+    font-size: 3.7rem;
+  }
+  .fourthFold{
+    padding-top: 60px;
+    border-bottom: 0;
+  }
+  .f4Button{
+    font-size: 1.4rem;
+  }
+  .f5Logo{
+    width: 35%;
+  }
+  .f5Tagline{
+    font-size: 14px;
+  }
+  .f4Image{
+    display: block;
+  }
+}
