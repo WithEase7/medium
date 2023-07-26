@@ -21,7 +21,8 @@ const NavBar = () => {
     window.addEventListener('scroll', updateNavbarStyle)
   },[])
   return (
-    <div className="navbar-container" id="navbar">
+    <div className="navbar-background" id="navbar">
+    <div className="navbar-container">
       <a className="navbar-logo" href="/">{mediumLogo}</a>
       <div className="navbar-menu-container">
         <ul className="navbar-menu">
@@ -38,6 +39,7 @@ const NavBar = () => {
         <p className="sign-in">Sign In</p>
         <button className="navbar-button" id="navButton">Get started</button>
       </div>
+    </div>
     </div>
   );
 };

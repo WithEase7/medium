@@ -1,14 +1,24 @@
+
+.navbar-background{
+  background-color: #ffc017;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 77px;
+  z-index: 2;
+  position: fixed;
+  border-bottom: 1.4px solid black;
+  transition: background-color 0.8s ease;
+}
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #ffc017;
-  border-bottom: 1.4px solid black;
-  position: fixed;
   width: 100%;
+  position: fixed;
+  max-width: 1300px;
   z-index: 1;
-  transition: background-color 0.8s ease;
 }
 .navbar-logo {
   width: 160px;

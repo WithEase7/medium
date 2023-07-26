@@ -1,8 +1,21 @@
+.homeResponsive{
+  max-width: 1300px;
+  margin: 0 auto;
+}
 .title-section {
-    background-color: #ffc017;
-    padding: 165px 20px 90px 20px;
-    border-bottom: 1.4px solid black;
+  background-color: #ffc017;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1.4px solid black;
+  padding: 165px 20px 90px 20px;
+
   }
+.title-container{
+  width: 100%;
+  max-width: 1200px;
+  z-index: 1;
+}
   .title {
     font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 70px;
@@ -301,6 +314,9 @@
     .footerContainer, .blogLoadMore{
       display: none;
     }
+    .title{
+      font-size: 110px;
+    }
   }
   @media (min-width: 1080px){
     .trending-card{
@@ -309,4 +325,7 @@
     .midSection{
         gap: 2.5rem;
     }
+  }
+  @media (min-width: 1300px){
+    
   }

@@ -10,12 +10,14 @@ const Home = () => {
   return (
     <div>
       <TitleSection />
+      <div className="homeResponsive">
       <TrendingSection />
       <div className="midSection">
         <TopicCards />
         <RecentBlogs />
       </div>
       <Footer />
+    </div>
     </div>
   );
 };
