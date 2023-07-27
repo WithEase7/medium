@@ -15,13 +15,12 @@ const FaqSection = () => {
       <ul className="faqList">
         {data.map((item) => {
           return (
-            <li className="faqCard" key={item.id}>
+            <li className="faqCard" key={item.id} onClick={() => toggleFaqs(item.id)}>
               <div className="faqTop">
                 <p className="faqQuestion">{item.question}</p>
                 <img
                   src={arrowIcon}
                   className="faqIcon"
-                  onClick={() => toggleFaqs(item.id)}
                 />
               </div>
               {selectedIndex.includes(item.id) && (

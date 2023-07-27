@@ -18,6 +18,7 @@
 .f1wDesc{
     display: none;
     font-size: 1.1rem;
+    max-width: 600px;
 }
 .f1wButton{
      display: none;
@@ -280,6 +281,10 @@
     .faqTitle{
         padding: 3rem 1rem;
     }
+    .f1wTitle{
+        font-size: 7vw;
+        letter-spacing: -3px;
+    }
 }
 @media (min-width: 750px){
     .faqTitle{
@@ -289,21 +294,25 @@
         padding-left: 3rem;
     }
     .f4wTitle{
-        font-size: 8vw;
+        font-size: 6vw;
+        line-height: 5rem;
     }
     .faqAnswer{
         padding-right: 4rem;
+    }
+    .f1wImage{
+        max-width: 400px;
     }
 }
     @media (min-width: 900px){
         .f2Write{
             display: flex;
             justify-content: space-around;
+            padding: 2rem 0;
         }
         .f2wTitle{
-            font-size: 4rem;
+            font-size: 5vw;
             flex-basis: 30%;
-            align-self: center;
             padding-left: 2rem;
         }
         .f2wList{
@@ -318,6 +327,31 @@
         .faqQuestion, .faqAnswer{
             font-size: 1.2rem;
         }
+        .f1wMiniTag{
+            display: none;
+        }
+        .f1wTop{
+            flex-basis: 70%;
+        }
+        .f1wBottom{
+            flex-basis: 30%;
+        }
+        .f1wImage{
+            max-width: 500px;
+        }
+        .f1wDesc{
+            font-size: 1.2rem;
+        }
+        .f4wTitle{
+            font-size: 7vw;
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 6rem;
+        }
+        .f2wList{
+            max-width: 600px;
+        }
+        
     }
     @media (min-width: 1000px){
         .faqTop{
@@ -331,4 +365,27 @@
         .faqCard{
             padding: 10px 0;
         }
+        .f1wDesc{
+            font-size: 1.3rem;
+        }
+        .f1wImage{
+            max-width: 600px;
+        }
+        .f4wTitle{
+            font-size: 7vw;
+            max-width: 1000px;
+            margin: 0 auto;
+            line-height: 6rem;
+        }
+        .f2Write{
+            padding: 3rem 0;
+        }
     }
+@media (min-width: 1300px){
+    .f4wTitle{
+        line-height: 8rem;
+    }
+    .f1wContainer{
+        padding: 0 2rem;
+    }
+}

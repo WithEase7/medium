@@ -14,10 +14,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   width: 100%;
   position: fixed;
   max-width: 1300px;
+  padding: 20px;
   z-index: 1;
 }
 .navbar-logo {
