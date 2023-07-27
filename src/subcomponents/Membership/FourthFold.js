@@ -4,7 +4,7 @@ const FourthFold = () => {
   return (
     <div>
     <div className='fourthFold'>
-        <p className='f4Title'>Take your mind in new directions.</p>
+        <p className='f4Title'>Take your mind<br></br>in new directions.</p>
         <button className='f4Button'>Get unlimited access</button>
     </div>
     <div>

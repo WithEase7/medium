@@ -4,6 +4,7 @@ const ThirdFoldWrite = () => {
   return (
     <div className="t3Write">
       <div className="t3wTop">
+        <div>
         <p className="t3wFirstText">
           Create<br></br>your space.
         </p>
@@ -12,25 +13,28 @@ const ThirdFoldWrite = () => {
           brand your work.
         </p>
         <button className="t3wButton">Start writing</button>
+        </div>
         <img
           src="https://cdn-static-1.medium.com/sites/medium.com/creators/images/earn_kelly_kaki.png"
           alt="t2w_image"
           className="t3wImage"
         />
       </div>
-      <div className="t3wCard">
+      <div className="t3wBottom">
+      <div className="t3wCard" id="t3wCard1">
         <p className="t3wThirdText">Start a blog.</p>
         <p className="t3wFourthText">
           Create a blog for free to have a personalized home for your writing.
           Brand your space and share your writing with readers on any device.
         </p>
       </div>
-      <div className="t3wCard">
+      <div className="t3wCard" id="t3wCard2">
         <p className="t3wThirdText">Start a publication.</p>
         <p className="t3wFourthText">
           Collaborate with others or publish under a brand name. Use our story
           submission system and expressive customization options.
         </p>
+      </div>
       </div>
     </div>
   );

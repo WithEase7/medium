@@ -327,5 +327,7 @@
     }
   }
   @media (min-width: 1300px){
-    
+    .tagline{
+      width: 40%;
+    }
   }

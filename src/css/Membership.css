@@ -60,12 +60,15 @@
   font-family: "Gt super text book", Georgia, sans-serif;
 font-size: 1.6rem;
 width: 80%;
+padding-top: 2rem;
 }
 .tfImage{
     width: 40vw;
     height: 40vw;
     border-radius: 50%;
     margin: 2rem 0;
+    max-width: 180px;
+    max-height: 180px;
 }
 .tfComment{
     font-size: 1.1rem;
@@ -108,6 +111,7 @@ margin-top: 1.8rem;
 }
 .f5Logo{
   width: 45%;
+  max-width: 180px;
 }
 .f5Tagline{
   font-size: 13px;
@@ -126,7 +130,8 @@ margin-top: 1.8rem;
     display: flex;
   }
   .sfone, .sftwo{
-    padding: 20px 10px 10px 20px;
+    padding: 20px;
+    flex: 1;
   }
   .sfImage{
     width: 11rem;
@@ -177,5 +182,56 @@ margin-top: 1.8rem;
   }
   .f4Image{
     display: block;
+  }
+}
+@media (min-width: 672px){
+  .sfImage{
+    max-width: 100%;
+    width: 260px;
+  }
+  .tfTestimonial{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .tfImage{
+    width: 50%;
+  }
+  .tfCommentContainer{
+    width: 50%;
+  }
+  .tfTitle{
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (min-width: 768px){
+  .fifthFold{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .f5Tagline, .f5List{
+    margin: 0;
+  }
+}
+@media (min-width: 992px){
+  .sfoneTitle, .sftwoTitle{
+    font-size: 3.5vw;
+  }
+  .ffoneTitle{
+    font-size: 7vw;
+  }
+  .tfTitle{
+    font-size: 4vw;
+  }
+  .f4Title{
+    font-size: 7vw;
   }
 }
