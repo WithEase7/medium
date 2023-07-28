@@ -26,18 +26,18 @@ const NavBar = () => {
     >
       <div className={"navbar-container " + (location.pathname.includes("write") || location.pathname.includes("membership") ? "" : "mw1300")} id="navContainer">
         <a className="navbar-logo" href="/">
-          {location.pathname.includes("membership") ? <img src="https://cdn-static-1.medium.com/sites/medium.com/membership/images/Medium-Logo-Black-RGB-1.svg" className="logoStyle"/> : mediumLogo}
+          {!colorChange && location.pathname.includes("membership") ? <img src="https://cdn-static-1.medium.com/sites/medium.com/membership/images/Medium-Logo-Black-RGB-1.svg" className="logoStyle"/> : mediumLogo}
         </a>
         <div className="navbar-menu-container">
           <ul className="navbar-menu">
             <li className="menu">
-              <Link to="/membership" className={location.pathname.includes("membership") ? "clrw" : ""}>Membership</Link>
+              <Link to="/membership" className={!colorChange && location.pathname.includes("membership") ? "clrw" : ""}>Membership</Link>
             </li>
             <li className="menu">
-              <Link to="/write" className={location.pathname.includes("membership") ? "clrw" : ""}>Write</Link>
+              <Link to="/write" className={(!colorChange && location.pathname.includes("membership")) ? "clrw" : ""}>Write</Link>
             </li>
           </ul>
-          <Link to="/signup" className={"sign-in "+(location.pathname.includes("membership") ? "clrw" : "")}>
+          <Link to="/signup" className={"sign-in "+(!colorChange && location.pathname.includes("membership") ? "clrw" : "")}>
             Sign In
           </Link>
           <Link to="/signup" className={"navbar-button "+(colorChange ? "greenButton" : "")} id="navButton">
